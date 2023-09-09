@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Slack profile</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <div class="card">
+    <div class="display-picture">
+      <img src="Images/Profilepic.JPG" alt="Mikeonweb" data-testid="slackDisplayImage">
+    </div>
+    
+    <div class="banner"> 
+    <img src="Images/Banner.jpeg" alt="slackbanner">
+    </div>
+    
+    
+    <div class="content">
+      <h1>Mikeonweb</h1>
+      
+    <div class="day-time">
+      <div class="my-track">
+        <h2>Track</h2>
+        <p class="bio" data-testid="myTrack">Frontend</p>
+      </div>
+      
+      <div>
+      <h2>Day</h2>
+      <div class="day" data-testid="currentDayOfTheWeek"></div>
+      </div>
+      
+      <div>
+      <h2>Time</h2>
+      <div class="time" data-testid="currentUTCTime"></div>
+      </div>
+    </div>
+
+      <br>
+      <a href="#"><i class="fa fa-github" data-testid=“githubURL”> Source code</i></a>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

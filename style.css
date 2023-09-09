@@ -1,0 +1,90 @@
+body{
+  background-color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card{
+  background-color: #fff;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .50);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  user-select: none;
+  color: #000;
+  padding-bottom: 30px;
+  position: relative;
+}
+.banner{
+  width: 100%;
+  height: auto;
+}
+.banner img{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 100px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  object-fit: cover;
+}
+.display-picture img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 4em;
+  margin-top: 8.2em;
+  border: 10px solid #F0C912;
+  object-fit: cover;
+}
+
+.day-time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.time, .day, .content p{
+  width: 25px;
+  height: 25px;
+  border: 1px solid #8104B9;
+  padding: 15px 15px;
+  color: #231e39;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: table;
+  font-weight: 800;
+}
+
+.content h1{
+  position: absolute;
+  top: -0.7em;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: 2px solid #F0C912;
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+  
+.content a{
+  padding: 12px;
+  font-size: 20px;
+  box-shadow: 0 5px 5px #04B940;
+  border-radius: 50px;
+  color: #04B940;
+  margin: 5px;
+  text-decoration: none;
+}
+.content a:hover{
+  background-color: #03bfbc;
+  color: #fff;
+}
